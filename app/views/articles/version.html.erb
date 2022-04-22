@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+   <%= @version.reify.title %>
+
+</p>
+
+
+<p>
+  <strong>Body:</strong>
+  <%= @version.reify.body %>
+</p>
+
+
+<%= link_to 'Revert to this version', revert_article_path(@article, @version), method: :post %>
+<%= link_to 'Back', versions_article_path(@article) %>

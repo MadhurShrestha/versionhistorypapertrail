@@ -54,5 +54,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'papertrail', '~> 0.11.1'
+gem 'paper_trail', '~> 12.3'
 gem 'faker', '~> 2.20'
